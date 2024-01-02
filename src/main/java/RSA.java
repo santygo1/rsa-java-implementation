@@ -2,13 +2,11 @@ import keys.KeyPair;
 import keys.RSAPrivateKey;
 import keys.RSAPublicKey;
 
-import javax.sound.midi.Soundbank;
 import java.math.BigInteger;
-import java.util.stream.Collectors;
 
 import static java.lang.StringTemplate.STR;
 
-public class Main {
+public class RSA {
 
     private static final String BLOCK_DELIMITER = "-";
 
